@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+
+    <!-- CONFIGURAÇÕES CSS -->
+    <link rel="stylesheet" href="newStyle.css">
+
+    <!-- IMPORT BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- IMPORT GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="barraDePesquisa">
+            <i class="bi bi-geo-alt"></i>
+            <input class="input-buscar" type="search" name="" id="" placeholder="Buscar cidade">
+            <button class="button-buscar">
+                <i class="bi bi-search" onclick="clickBuscar()"></i>
+            </button>
+        </div>
+
+        <!-- NOME DA CIDADE, TEMPERATURA, DESCRIÇÃO -->
+        <section class="painel_principal">
+            <h2 class="titulo">Tempo</h2>
+            
+            <div class="conteiner_infor-princ">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="">
+                <div>
+                    <p class="paragraphy-one">0º</p>
+                    <p class="paragraphy-two">clima</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="informacoes-painel">
+            <!-- INFORMAÇÃO DE TEMP MAX -->
+            <div class="cards">
+                <i class="bi bi-thermometer-sun"></i>
+
+                <div>
+                    <h2>Temperatura max</h2>
+                    <p id="temp-max">0ºC</p>
+                </div>
+            </div>
+            
+            <!-- INFORMAÇÃO DE TEMP MIN -->
+            <div class="cards">
+                <i class="bi bi-thermometer-snow"></i>
+
+                <div>
+                    <h2>Temperatura min</h2>
+                    <p id="temp-min">0ºC</p>
+                </div>
+            </div>
+
+            <!-- INFORMAÇÕES DE HUMIDADE -->
+            <div class="cards">
+                <i class="bi bi-droplet-fill"></i>
+
+                <div>
+                    <h2>Umidade</h2>
+                    <p class="paragraphy-three">0%</p>
+                </div>
+            </div>
+
+            <!-- INFORMAÇÃO DE VENTO -->
+            <div class="cards">
+                <i class="bi bi-wind"></i>
+
+                <div>
+                    <h2>Vento</h2>
+                    <p id="wind">0km/h</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+<!-- CONSUMINDO API COM JAVASCRIPT -->
+<script src="script.js"></script>
+
+</html>

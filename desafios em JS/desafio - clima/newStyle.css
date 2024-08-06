@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(#3b82f6, #4a7dff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.conteiner{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.207);
+}
+.barraDePesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 4px 12px;
+}
+.input-buscar{
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+}
+.input-buscar:focus{
+    outline: none;
+}
+.button-buscar{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.titulo{
+    text-align: center;
+    font-size: 20pt;
+    color: #372f3f;
+    font-weight: 700;
+    margin: 8px;
+}
+.conteiner_infor-princ{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #5a7cdc, #606dde);
+    padding: 15px;
+    border-radius: 18px;
+}
+/* VERIFICAR */
+.conteiner_infor-princ img{
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.408));
+}
+.paragraphy-one{
+    font-size: 24pt;
+    font-weight: 700;
+    line-height: 50px;
+}
+.paragraphy-two{
+    font-weight: 500;
+    font-size: 10pt;
+    text-transform: capitalize;
+}
+.informacoes-painel{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.cards h2{
+    font-size: 10pt;
+    font-weight: 700;
+}
+.cards p{
+    font-size: 15pt;
+    font-weight: 500;
+}
+.bi-thermometer-sun{
+    color: #7f1d1d;
+}
+.bi-thermometer-snow{
+    color: #0284c7;
+}
+.bi-droplet-fill{
+    color: #0ea5e9;
+}
+.bi-wind{
+    color: #7c3aed;
+}
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    .conteiner {
+        width: 100%;
+        padding: 20px;
+        border-radius: 0;
+    }
+    .conteiner_infor-princ {
+        flex-direction: column;
+        text-align: center;
+        gap: 1px;
+    }
+    .informacoes-painel {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .paragraphy-one{
+        font-size: 50pt;
+        font-weight: 200;
+        line-height: 80px;
+    }
+    .cards {
+        flex-direction: column;
+        text-align: center;
+    }
+}

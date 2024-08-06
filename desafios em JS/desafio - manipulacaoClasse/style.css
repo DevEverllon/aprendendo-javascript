@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.classeOne{
+    display: none;
+}
+.classeTwo{
+    display: flex;
+}
+.conteiner_principal{
+    background-color: rgb(248, 242, 216);
+    padding: 15px;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(255, 242, 216);
+    padding: 15px;
+}
+#button{
+    background-color: transparent;
+    border: 0;
+    font-size: 20pt;
+    cursor: pointer;
+}
+.content{
+    border: 2px solid #bdbdbd;
+    padding: 15px;
+    line-height: 1.5em;
+}

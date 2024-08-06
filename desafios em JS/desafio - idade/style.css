@@ -1,0 +1,15 @@
+img{
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 25px;
+}
+#button{
+    background-color: rgb(206, 206, 206);
+    border-radius: 25px;
+    border: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+#masc, #femi, label{
+    cursor: pointer;
+}
