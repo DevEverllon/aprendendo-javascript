@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side bar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="sidebar">
+        <div id="sidebar_content">
+            <div id="user">
+                <img src="../desafio - idade/adolescente-m.jpg" alt="Avatar" class="user_avatar">
+                <p id="user_infos">
+                    <span class="item-description name">Éverllon Souza</span>
+                    <span class="item-description">Programador</span>
+                </p>
+            </div>
+            <ul class="side_items">
+                <li class="side_item active">
+                    <a href="#">
+                        <i class="bi bi-graph-up" aria-label="Dashboard"></i>
+                        <span class="item-description">Dashboard</span>
+                    </a>
+                </li>
+                <li class="side_item">
+                    <a href="#">
+                        <i class="bi bi-person-fill" aria-label="Usuário"></i>
+                        <span class="item-description">Usuário</span>
+                    </a>
+                </li>
+                <li class="side_item">
+                    <a href="#">
+                        <i class="bi bi-bell-fill" aria-label="Notificação"></i>
+                        <span class="item-description">Notificação</span>
+                    </a>
+                </li>
+                <li class="side_item">
+                    <a href="#">
+                        <i class="bi bi-cpu-fill" aria-label="Produtos"></i>
+                        <span class="item-description">Produtos</span>
+                    </a>
+                </li>
+                <li class="side_item">
+                    <a href="#">
+                        <i class="bi bi-images" aria-label="Imagens"></i>
+                        <span class="item-description">Imagens</span>
+                    </a>
+                </li>
+                <li class="side_item">
+                    <a href="#">
+                        <i class="bi bi-gear-wide-connected" aria-label="Configurações"></i>
+                        <span class="item-description">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+            <button id="open_btn" aria-label="Abrir Sidebar">
+                <i id="open_btn_icon" class="bi bi-caret-right"></i>
+            </button>
+        </div>
+        <div id="logout">
+            <button id="logout_btn" aria-label="Logout">
+                <i class="bi bi-box-arrow-right"></i>
+                <span class="item-description">Logout</span>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <h1>Título</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil nostrum ipsa repudiandae a numquam quas inventore voluptas consectetur! Error sequi maxime fuga repellendus odio explicabo rerum et placeat architecto!</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
