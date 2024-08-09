@@ -4,6 +4,9 @@
 ### Desafio - Clima
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20clima/" target="_blank">Acesse o site do desafio - clima aqui</a>
 
+### Desafio - Dark Mode
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20dark/index1.html" target="_blank">Acesse o site do desafio - dark mode</a>
+
 ### Desafio - Hora
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20hora/" target="_blank">Acesse o site do desafio - hora aqui</a>
 
