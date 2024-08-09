@@ -12,3 +12,12 @@
 
 ### Desafio - Idade
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20idade/" target="_blank">Acesse o site do desafio - idade aqui</a>
+
+### Desafio - Manipulação de Classes
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20manipulacaoClasse/" target="_blank">Acesse o site do desafio - idade aqui</a>
+
+### Desafio - Menu
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20menu/" target="_blank">Acesse o site do desafio - idade aqui</a>
+
+### Desafio - Sidebar
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20sidebar/" target="_blank">Acesse o site do desafio - idade aqui</a>
