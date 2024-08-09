@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Example</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <section id="section_perfil">
+        <div id="main">
+            <img src="../desafio - idade/adulto-m.jpg" alt="Foto de perfil" class="image_foto_perfil">
+            <div class="infos">
+                <p class="user_name">Éverllon Souza</p>
+                <p class="paragraph">Programador Font-end</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_content">
+        <div class="cards">
+            <!-- CARD 1 -->
+            <div class="card">
+                <i class="bi bi-code-slash"></i>
+                <div class="skill">
+                    <p class="title_card1">Programação</p>
+                    <!-- <p class="description_card">Há 1 anos</p> -->
+                </div>
+            </div>
+        
+            <!-- CARD 2 -->
+            <div class="card">
+                <i class="bi bi-person-wheelchair"></i>
+                <div class="skill">
+                    <p class="title_card2">Acessibilidade</p>
+                    <!-- <p class="description_card">Respeito e Atenção</p> -->
+                </div>
+            </div>
+        
+            <!-- CARD 3 -->
+            <div class="card">
+                <i class="bi bi-chat-left-quote"></i>
+                <div class="skill">
+                    <p class="title_card3">Comunicação</p>
+                    <!-- <p class="description_card">Acertiva</p> -->
+                </div>
+            </div>
+            <!-- CARD 4 -->
+            <div class="card">
+                <i class="bi bi-grid-1x2"></i>
+                <div class="skill">
+                    <p class="title_card4">Organização</p>
+                    <!-- <p class="description_card">Mais eficiencia</p> -->
+                </div>
+            </div>
+        
+        </div>
+        <!-- TABS LINKS -->
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'Tab1')">Conheça-me</button>
+            <button class="tablink" onclick="openTab(event, 'Tab2')">Contatos</button>
+        </div>
+        <!-- TABS CONTENT -->
+        <div id="Tab1" class="tabcontent">
+            <h3>Quem sou eu</h3>
+            <p>Meu nome é Éverllon Souza, apaixonado pelo mundo da tecnologia.</p>
+        </div>
+
+
+        <div id="Tab2" class="tabcontent">
+            <h3>Contatos</h3>
+
+            <a href="#" target="_blank" class="link">
+                <i class="bi bi-instagram"></i>
+                
+                Instagram
+            </a>
+            
+            <a href="#" target="_blank" class="link">
+                <i class="bi bi-facebook"></i>
+                
+                WhatsApp
+            </a>
+            
+            <a href="#" target="_blank" class="link">
+                <i class="bi bi-whatsapp"></i>
+                
+                Facebook
+            </a>
+            
+            <a href="#" target="_blank" class="link">
+                <i class="bi bi-envelope-at"></i>
+                
+                Email
+            </a>
+
+            <a href="#" target="_blank" class="link">
+                <i class="bi bi-linkedin"></i>
+                
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <script src="scriot.js"></script>
+</body>
+</html>
