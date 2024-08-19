@@ -25,4 +25,4 @@
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20sidebar/" target="_blank">Acesse o site do desafio - sidebar aqui</a>
 
 ### Desafio - NavBar
-- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20navba" target="_blank">Acesse o site do desafio - navbar aqui</a>
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20navbar/" target="_blank">Acesse o site do desafio - navbar aqui</a>
