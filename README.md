@@ -17,6 +17,7 @@
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20manipulacaoClasse/" target="_blank">Acesse o site do desafio - manipulação de classes aqui</a>
 
 <hr>
+
 ### Desafio - Menu
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20menu/" target="_blank">Acesse o site do desafio - menu aqui</a>
 
