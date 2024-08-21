@@ -16,6 +16,9 @@
 ### Desafio - Manipulação de Classes
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20manipulacaoClasse/" target="_blank">Acesse o site do desafio - manipulação de classes aqui</a>
 
+### Desafio - Relógio
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20relogio/" target="_blank">Acesse o site do desafio - manipulação de classes aqui</a>
+
 <hr>
 
 ### Desafio - Menu
