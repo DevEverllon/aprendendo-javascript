@@ -16,8 +16,13 @@
 ### Desafio - Manipulação de Classes
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20manipulacaoClasse/" target="_blank">Acesse o site do desafio - manipulação de classes aqui</a>
 
+<hr>
+
 ### Desafio - Menu
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20menu/" target="_blank">Acesse o site do desafio - menu aqui</a>
 
 ### Desafio - Sidebar
 - <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20sidebar/" target="_blank">Acesse o site do desafio - sidebar aqui</a>
+
+### Desafio - NavBar
+- <a href="https://deveverllon.github.io/aprendendo-javascript/desafios%20em%20JS/desafio%20-%20navbar/" target="_blank">Acesse o site do desafio - navbar aqui</a>
