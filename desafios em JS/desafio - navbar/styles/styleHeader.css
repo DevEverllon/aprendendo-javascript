@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    padding: 28px 15px;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_logo{
+    font-size: 24px;
+    color: var(--yellow-normal);
+}
+#nav_link{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.nav_item a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+}
+.nav_item.active a{
+    color: #1d1d1d1d;
+    border-bottom: 3px solid #ffe100;
+}
+/* BOTÃO NÃO EXISTE */
+.add{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 760px){
+    /* ADICIONAR BOTÃO */
+    .add{
+        display: block;
+    }
+    #nav_link{
+        display: none;
+    }
+    .btn-default{
+        display: none;
+    }
+    .open{
+        display: flex;
+    }
+}
